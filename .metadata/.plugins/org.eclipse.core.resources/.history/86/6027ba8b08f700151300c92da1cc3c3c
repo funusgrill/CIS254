@@ -1,0 +1,25 @@
+package zuoye;
+import java.util.Scanner;
+
+
+public class Multiples{
+	public static void main(String[] args){
+			Scanner input = new Scanner( System.in );
+		 String answer=null;
+		
+	do{System.out.print("Enter one number:");
+			int x= input.nextInt();
+	System.out.print("Enter a second number:");
+	   int y= input.nextInt();
+	   if(isMultiple(x,y))System.out.print(y+" is a multiple of "+x+"\n");
+	   else System.out.print(y+" is not a multiple of "+x+"\n");
+	   System.out.print(" Do you want to enter another pair(y/n)?");
+		   answer=input.next();
+	
+		   System.out.println();
+	  }while(answer=="y");}
+
+
+
+public static boolean isMultiple (int a, int b){
+	return b%a==0;}}

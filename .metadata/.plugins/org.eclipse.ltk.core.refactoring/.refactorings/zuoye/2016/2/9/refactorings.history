@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;zuoye/src/Triangle.java&apos; to &apos;AsteriskSquare.java&apos;" description="Rename resource &apos;Triangle.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Triangle.java" name="AsteriskSquare.java" stamp="1456299094567" updateReferences="true"/>
+</session>

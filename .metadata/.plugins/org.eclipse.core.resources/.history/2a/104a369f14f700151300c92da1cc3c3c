@@ -1,0 +1,21 @@
+package zuoye;
+
+import java.util.Scanner;
+ class CharSquare{
+	public static void main(String[] args){
+			Scanner input = new Scanner( System.in );
+		 String answer=null;
+		 
+		 System.out.print("Enter an integer for this length of the side of the square:");
+			int z= input.nextInt();
+				 System.out.print("Enter a single character to draw the square with:");
+			char x= input.next().charAt(0);
+		for(int c=0;c<z;c++){
+			 squareOfAsterisks(z,x);
+			System.out.println();
+	  }}
+
+
+
+public static void squareOfAsterisks (int count,char h){
+	for(int a=0;a<count;a++){System.out.print(h);}}}

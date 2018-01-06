@@ -1,0 +1,29 @@
+package zuoye;
+import java.util.Scanner;
+
+
+public class Multiples{
+	public static void main(String[] args){
+			Scanner input = new Scanner( System.in );
+		 String answer=null;
+		 
+		 System.out.print("Enter one number:");
+			int x= input.nextInt();
+			System.out.print("Enter a second number:");
+			int z= input.nextInt();
+			System.out.print("Do you want to enter another pair(y/n)?\n");
+			   answer=input.next();
+		 while(answer.equals("y")){System.out.print("Enter one number:");
+			 x= input.nextInt();
+			System.out.print("Enter a second number:");
+			 z= input.nextInt();
+			if(isMultiple(x,z))System.out.print(z+" is a multiple of "+x+"\n");
+			else System.out.print(z+" is not a multiple of "+x+"\n");
+			System.out.print("Do you want to enter another pair(y/n)?\n");
+		   answer=input.next();
+	  }}
+
+
+
+public static boolean isMultiple (int a, int b){
+	return b%a==0;}}

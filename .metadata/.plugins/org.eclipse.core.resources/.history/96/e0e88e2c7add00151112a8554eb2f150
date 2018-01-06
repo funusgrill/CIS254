@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class A6_2 {
+	public static void main( String[] args ){
+	Scanner input = new Scanner( System.in );
+	
+	int count;
+	int entry = 0;
+	int first=0;
+	int last=0;
+	int nonseven = 0;
+	
+	System.out.print("How many numbers will be entered? ");
+	int number = input.nextInt();
+	
+		for (count=0; count<number;count++){
+			System.out.print("Enter num: ");
+			entry = input.nextInt();
+		}
+		System.out.print(first);}
+}

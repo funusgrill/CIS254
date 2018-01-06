@@ -1,0 +1,27 @@
+package zuoye;
+
+import java.util.Scanner;
+class PerfectNumbers{
+	public static void main(String[] args){
+			Scanner input = new Scanner( System.in );
+		 String answer=null;
+		 
+		 System.out.print("Enter the number up to which you would like to look for perfect numbers:"+"\n");
+			int z= input.nextInt();
+		System.out.print("Looking for perfect numbers from 1 to"+z);
+		for(int c=0;c<z;c++){
+			 isPerfect(c);
+			System.out.println();
+	  }}
+
+
+
+static boolean isPerfect(int perfect){
+		        int sum = 0;
+		        for(int number = 1; number < perfect; number++){
+		        	 if(perfect % number == 0){sum += number;}
+					System.out.print("sum ");
+		        }
+		        return perfect == sum;
+		 		}
+		    }
